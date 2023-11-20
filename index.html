@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-head">
+            <h2>Us Doller to Canadian Doller.</h2>
+            <h4>Convert USD to CAD at the real exchange rate</h4>
+        </div>
+        <input type="number" id="amount" placeholder="Enter amount">
+        <select id="conversionType">
+            <option value="CADtoUSD">CAD to USD</option>
+            <option value="USDtoCAD">USD to CAD</option>
+        </select>
+        <button onclick="convertCurrency()">Convert</button>
+        <hr>
+        <div class="result">
+           <p>Converted Amount:</p>
+           <p  id="result"></p>
+        </div>
+        
+    </div>
+    <script src="./js/jsscript.js"></script>
+</body>
+</html>
